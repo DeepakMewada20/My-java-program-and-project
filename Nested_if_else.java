@@ -1,3 +1,4 @@
+//nested if else condition
 import java.util.*;
 class Nested_if_else {
     int a,b,c;
@@ -9,6 +10,7 @@ class Nested_if_else {
         b=sc.nextInt();
         System.out.printf("Enter c = ");
         c=sc.nextInt();
+        //Nested if else
         if(a>b){
             if(a>c){
                 System.out.println("a is grater then b and c");

@@ -13,6 +13,4 @@ class Y2{
     }
 }
         //x1.multi();----->firs methade
-        // hum dono me se kisi bhi methade ka use kar sakte hai,function ko call karne
-        // ke liye. esme se jo first methade hai vo "second program" hai or
-        // jo second methade hai vo third programe hai
+        // hum dono me se kisi bhi methade ka use kar sakte hai,function ko call karne  ke liye

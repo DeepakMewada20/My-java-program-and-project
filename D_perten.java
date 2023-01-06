@@ -1,3 +1,5 @@
+//this program print D parten
+//this is pertan class
 class Perten{
     int n=10;
     void perten(){
@@ -25,7 +27,7 @@ class Perten{
 }
 public class D_perten {
     public static void main(String[] args) {
-        Perten p = new Perten();
-        p.perten();
+        Perten p = new Perten();//object creation of class pertan
+        p.perten();             //call perten function
     }
 }
