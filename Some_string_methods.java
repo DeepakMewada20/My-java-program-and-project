@@ -1,11 +1,7 @@
-import java.util.*;
-public class String_program {
+//some string methods
+public class Some_string_methods {
     public static void main(String[] args) {
         String st=new String("Deepak Mewada");
-        //System.out.println(name);
-        //System.out.format("Enter string = ");
-       // Scanner sc=new Scanner(System.in);
-       // String st=sc.nextLine();
         System.out.println(st);
         System.out.println("lenth of input string is = "+st.length());
         System.out.println("In UPPER case = "+st.toUpperCase());
@@ -13,8 +9,8 @@ public class String_program {
         String name=new String("   Deepak   ");
         System.out.println("before Trim methode = "+name);
         System.out.println("After Trim methode = "+name.trim());
-        System.out.println("Substring methode = "+st.substring(12));
-        System.out.println("Substring Methode beging & end = "+st.substring(8,12));
+        System.out.println("Substring methode = "+st.substring(9));
+        System.out.println("Substring Methode beging & end = "+st.substring(5,12));
         System.out.println("d\reepa\bk \"me\fwada\" ");
         //\r -->remove all charecter of before
         //\b--> remove first charecter of before

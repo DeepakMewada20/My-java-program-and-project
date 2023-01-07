@@ -2,7 +2,7 @@
 import java.util.*;
 class Nested_if_else {
     int a,b,c;
-    void campare(){
+    void campare(){                   //input three numbers
         Scanner sc=new Scanner(System.in);
         System.out.printf("Enter a = ");
         a=sc.nextInt();
@@ -31,7 +31,7 @@ class Nested_if_else {
 }
 class Nested_if_else_2{
     public static void main(String a[]){
-        Nested_if_else d1=new Nested_if_else();
-        d1.campare();
+        Nested_if_else d1=new Nested_if_else();  //object create of Nested_if_else class
+        d1.campare();                            //function call
     }
 }

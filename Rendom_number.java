@@ -1,24 +1,24 @@
+//gest the random number
 import java.util.*;
 class Random_number_1 {
     int count=0;
      int Random_number_1() {
-        //int num;
-         System.out.println("deepak");
-        Random r = new Random();
-        return r.nextInt(100);
+        Random r = new Random(); //object create of Random class
+        return r.nextInt(100);//genreta random  number
 //        compare();
 
     }
+    //comparition function of random number
     void compare(){
-         System.out.println("mewada");
         int num=Random_number_1();
         int user_number;
         Scanner sc=new Scanner(System.in);
+        //do while loop
         do{
             count++;
             System.out.print("Enter number for gest = ");
-            user_number=sc.nextInt();
-            if(num==user_number){
+            user_number=sc.nextInt(); //input by the user
+            if(num==user_number){     //condition
                 System.out.println("Number was mached");
             }
             else{
@@ -36,8 +36,8 @@ class Random_number_1 {
 }
 class Random_number{
     public static void main(String[] args) {
-        Random_number_1 r1 = new Random_number_1();
-        r1.compare();
+        Random_number_1 r1 = new Random_number_1(); //object create of Random_number_1 class
+        r1.compare();                               //function call
     }
 }
 

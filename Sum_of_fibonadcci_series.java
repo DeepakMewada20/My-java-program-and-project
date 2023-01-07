@@ -1,6 +1,7 @@
+//Sum of fibonacci series
 public class Sum_of_fibonadcci_series {
 
-    static int recarsive_fib(int n){
+    static int recarsive_fib(int n){ //recorsion function
         int f=0;
         if (n==1){
             return 0;

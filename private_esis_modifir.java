@@ -1,12 +1,13 @@
 //esis
 import java.util.Scanner;
 class Employ{
-    int id ;
-    String name;
+    private int id ; //private veriabal of this class, we can not exis of this veriabal outside of class
+    private String name;
     Scanner sc=new Scanner(System.in);
-    void set_deta(){
+    void set_deta(){  //this function set value of this private veriabal
         System.out.print("Enter emaploy ID = ");
         id=sc.nextInt();
+        sc.nextLine();
         System.out.print("Emaploy name = ");
         name=sc.nextLine();
     }

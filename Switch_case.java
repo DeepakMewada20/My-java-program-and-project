@@ -5,7 +5,8 @@ class Switch_case{
     void switch_case1(){
         sc=new Scanner(System.in);
         System.out.printf("Enter number, between 1 to 5 = ");
-        n= sc.nextInt();
+        n= sc.nextInt(); //input by the user
+        //Switch case
         switch (n){
             case 1:{
                 System.out.println("Deepak ji Mewada");
@@ -36,7 +37,7 @@ class Switch_case{
 }
 class Switch_case_2{
     public static void main (String a[]){
-        Switch_case d1=new Switch_case();
-        d1.switch_case1();
+        Switch_case d1=new Switch_case(); //object create of Switch_case class
+        d1.switch_case1();                //function call of Switch_case class
     }
 }
