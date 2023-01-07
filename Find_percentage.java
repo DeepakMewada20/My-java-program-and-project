@@ -1,12 +1,12 @@
 //find PERCENTAGE of mark in java
 import java.util.*;
-public class Mewada {
+public class Find_percentage {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         byte n,mark;
         int total_number=0;
         float percentage;
-        System.out.println("Find SGPA and PERCENTAGE");
+        System.out.println("Find PERCENTAGE");
         System.out.print("How many subject, Enter number = ");
         n= sc.nextByte();
         for(int i=0;i<n;i++){

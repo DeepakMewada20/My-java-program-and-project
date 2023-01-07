@@ -1,4 +1,4 @@
-public class Method {
+public class Function_overloding {
     static void function_overloding(){
          System.out.println("This is function");
     }
