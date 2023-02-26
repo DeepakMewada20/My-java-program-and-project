@@ -9,7 +9,7 @@ class Phone{
 //class inheritance
 class Smart_phone extends Phone{
     @Override
-    void call(){        //this is Override function
+    void call(){//this is Override function
         System.out.println("This is Smart phone calling...");
     }
     void video(){       //This is function of Smart_phone class
@@ -19,6 +19,6 @@ class Smart_phone extends Phone{
 public class Dynamic_method_dispatch {
     public static void main(String[] args) {
         Phone obj=new Smart_phone();//this is super class reference and sub call object
-        obj.call();                  //this is function calling
+        obj.music();                  //this is function calling
     }
 }

@@ -23,7 +23,7 @@
         System.out.println("Emmploy name -> "+name);
     }
 }
-class Constructor{
+class Constructor {
     public static void main(String[] args) {
         new Constructor_1(65);                  //call first constructor
         new Constructor_1("Deepak");        //call second constructor
