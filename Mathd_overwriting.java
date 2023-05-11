@@ -1,7 +1,6 @@
 class A{
     int a;
     void mathad_1(){
-
         System.out.println("I am mathad of A class");
     }
 }
