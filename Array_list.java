@@ -3,7 +3,8 @@ public class Array_list {
     public static void main(String[] args){
         //Process1 p1=new Process1();
         Scanner sc=new Scanner(System.in);
-        List<Process1> processes = new ArrayList<>();
+        List<Integer>  processes = new ArrayList<>();
+/*
         processes.add(new Process1(3,6,1));
         processes.add(new Process1(4,3,6));
         processes.add(new Process1(6,7,9));
@@ -11,6 +12,14 @@ public class Array_list {
         processes.remove(0);
         //processes.remove(0);
         System.out.println(processes.size());
+*/
+        for (int i=0;i<6;i++) {
+            processes.add(i);
+        }
+        //processes.add(76);
+        for (int i=0;i< processes.size();i++){
+            System.out.println(processes.get(i));
+        }
     }
 }
 class Process1 {

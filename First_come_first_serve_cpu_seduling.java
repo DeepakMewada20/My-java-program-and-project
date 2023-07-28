@@ -25,7 +25,9 @@ public class First_come_first_serve_cpu_seduling {
         aversge_wt=(float)sum_wt/size;
         System.out.println("pro\t\tAT\t\tBT\t\tCT\t\tTAT\t\tWT");
         for (int procees=0;procees<size;procees++){
-            System.out.println(procees+"\t\t"+araval_time[procees]+"\t\t"+burst_time[procees]+"\t\t"+completion_time[procees]+"\t\t"+turn_around_time[procees]+"\t\t"+waiting_time[procees]);
+            System.out.print(procees+"\t\t"+araval_time[procees]+"\t\t"+burst_time[procees]+"\t\t");
+            System.out.print(completion_time[procees]+"\t\t"+turn_around_time[procees]+"\t\t");
+            System.out.println(waiting_time[procees]);
         }
         System.out.println("Average Turn_around_time = "+average_tat);
         System.out.println("Average Waiting time = "+aversge_wt);
