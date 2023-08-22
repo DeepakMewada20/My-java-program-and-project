@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.String;
 public class  Remove_word{
     public static void main(String[] args) {
         String str,word,new_str="";

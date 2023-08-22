@@ -1,4 +1,5 @@
- class Constructor_1{
+import java.lang.String;
+class Constructor_1{
     private int id;
     private String name;
     //first constructor

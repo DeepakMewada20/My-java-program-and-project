@@ -1,4 +1,5 @@
 //some string methods
+import java.lang.String;
 public class Some_string_methods {
     public static void main(String[] args) {
         String st=new String("Deepak Mewada");
@@ -22,10 +23,11 @@ public class Some_string_methods {
         System.out.println("Ends with = "+st.endsWith("d"));
         System.out.println("Index of \"d\"= "+st.indexOf("d"));
         System.out.println("index of, but after this(5) index = "+st.indexOf("wa",5));
-        System.out.println("charecter of this index = "+st.charAt(6));
+        System.out.println("charecter of this index = "+st.charAt(5));
         System.out.println("Last index of this char \"w\" = "+st.lastIndexOf("w"));
         System.out.println("Last index of thsi char \"w\" but yaha tak (6) = "+st.lastIndexOf("w",6));
         System.out.println("campare string with casesensitive = "+st.equals("Deepak mewada"));
         System.out.println("camper string egnore casesensitive = "+st.equalsIgnoreCase("deepAK mEwaDA"));
+        System.out.println(st.substring(0,1));
     }
 }

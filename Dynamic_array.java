@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.lang.String;
 public class Dynamic_array {
         public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);

@@ -1,7 +1,7 @@
 public class Finally_book {
     static int divid() {
         int a=8;
-        int b=3;
+        int b=0;
         try {
            int c=a/b;
             return c;

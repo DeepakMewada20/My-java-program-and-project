@@ -1,5 +1,6 @@
 //how to take input string after integer
 import java.util.*;
+import java.lang.String;
 public class Int_and_string_input {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

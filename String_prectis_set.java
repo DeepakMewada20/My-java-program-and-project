@@ -1,3 +1,4 @@
+import java.lang.String;
 public class String_prectis_set {
     public static void main(String[] args) {
         String name="Deepak Mewada";

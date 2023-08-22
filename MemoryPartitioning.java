@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.String;
 class MemoryPartition {
     int partitionId;
     int size;

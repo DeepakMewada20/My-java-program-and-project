@@ -1,3 +1,4 @@
+import java.lang.String;
 interface Mycamera{
     void takesnep();//en method ko implement karna is complsary
     void recordmusic();

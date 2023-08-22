@@ -1,3 +1,4 @@
+import java.lang.String;
 class Thread_Constructer extends Thread{
     Thread_Constructer(String name){
         super(name);

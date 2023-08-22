@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.lang.String;
 class Exception1 extends Exception {
     @Override
     public String getMessage() {

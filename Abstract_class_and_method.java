@@ -20,6 +20,7 @@ class Child1 extends Perent1{//inheritence
 abstract class Child3 extends Perent1{
     @Override
     void great() {
+
         System.out.println("Good night");
     }
 }

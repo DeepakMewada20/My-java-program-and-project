@@ -1,4 +1,4 @@
-//esis
+import java.lang.String;
 import java.util.Scanner;
 class Employ{
     private int id ; //private veriabal of this class, we can not exis of this veriabal outside of class

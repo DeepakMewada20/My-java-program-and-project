@@ -1,3 +1,4 @@
+import java.lang.String;
 class Thread_proirity extends Thread{
     Thread_proirity(String name){
         super(name);

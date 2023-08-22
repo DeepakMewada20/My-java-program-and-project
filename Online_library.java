@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.io.IOException;
+import java.lang.String;
 class Library{
     int[] book_number=new int[10];
     String[] book_name=new String[10];

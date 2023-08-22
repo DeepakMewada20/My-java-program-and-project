@@ -1,6 +1,6 @@
 import java.util.*;
 public class Array_list {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //Process1 p1=new Process1();
         Scanner sc=new Scanner(System.in);
         List<Integer>  processes = new ArrayList<>();
@@ -17,7 +17,7 @@ public class Array_list {
             processes.add(i);
         }
         //processes.add(76);
-        for (int i=0;i< processes.size();i++){
+        for (int i=0;i< processes.size();i++) {
             System.out.println(processes.get(i));
         }
     }
