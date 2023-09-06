@@ -2,7 +2,7 @@
 import java.lang.String;
 public class Some_string_methods {
     public static void main(String[] args) {
-        String st=new String("Deepak Mewada");
+        String st=new String("Deepak Mewada"); 
         System.out.println(st);
         System.out.println("lenth of input string is = "+st.length());
         System.out.println("In UPPER case = "+st.toUpperCase());

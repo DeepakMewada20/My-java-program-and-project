@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.lang.String;
 public class Sortest_job_first {
     float average_tat = 0, average_wt = 0;
 
